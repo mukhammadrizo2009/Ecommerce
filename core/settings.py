@@ -44,10 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     #Local
-    'apps.accounts.apps.AccountsConfig',
-    'apps.products.apps.ProductsConfig',
-    'apps.orders.apps.OrdersConfig',
-    'apps.reviews.apps.ReviewsConfig',
+    'accounts.apps.AccountsConfig',
+    'products.apps.ProductsConfig',
+    'orders.apps.OrdersConfig',
+    'reviews.apps.ReviewsConfig',
 ]
 
 MIDDLEWARE = [
